@@ -6,7 +6,7 @@ function setup() {
   stroke(255, 0, 0);
 
   var x;
-
+//
   x = 100;
   ellipse(x, 100, 50, 50);
 
