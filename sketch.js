@@ -6,6 +6,7 @@ function setup() {
 
   stroke(255, 0, 0);
 
+/*
   var x;
 //
   x = 100;
@@ -16,7 +17,10 @@ function setup() {
 
   x = 300;
   ellipse(x, 100, 50, 50);
-}
+
+*/
+
+
 
 
 for (var x = 1; x <=13; x++)
