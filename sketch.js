@@ -18,10 +18,18 @@ function setup() {
 
 */
 
-
+/*
 for (var x = 1; x <= 8; x++)
 {
   ellipse(x * 70, x * 20 + 100, 20, 40);
 }
 
+*/
+function draw() {
+  background(128, 0, 64);
+
+  ellipse(320, 240, mouseX, mouseY);
 }
+
+}
+
