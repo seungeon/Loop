@@ -30,11 +30,10 @@ for (var x = 1; x <= 8; x++)
 function draw() {
   background(128, 0, 64);
 
-for 
-  (var x = 1; x <= 8; x++)
+for (var x = 1; x <= 8; x++)
 {
 
-  ellipse(x * 70, x * 20 + 100, x+50, x*10);
+  ellipse(x * 70, x * 20 + 100, x + 50, x * 10);
 
 }
 var size=Math.abs(mouseX - 320);
