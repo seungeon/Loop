@@ -3,9 +3,7 @@ function setup() {
   background(128, 0, 64);
   noFill();
 
-
   stroke(255, 0, 0);
-
 /*
   var x;
 //
@@ -21,11 +19,9 @@ function setup() {
 */
 
 
-
-
-for (var x = 1; x <=3; x++)
+for (var x = 1; x <= 8; x++)
 {
-  ellipse(x * 100, 100, 50, 50);
+  ellipse(x * 70, x * 20 + 100, 50, 50);
 }
 
 }
