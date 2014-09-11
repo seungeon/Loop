@@ -38,7 +38,9 @@ for (var x = 1; x <= 8; x++)
 }
 var size=Math.abs(mouseX - 320);
   ellipse(320, 240, mouseX, mouseY);
-
+  ellipse(mouseX, mouseY, mouseX, mouseY);
+fill(225,640*225,480*225)
+ellipse(mouseY, mouseX, mouseX, mouseY);
 
 }
 
